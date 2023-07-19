@@ -5,7 +5,9 @@ function Navbar() {
     <>
         <nav className="navbar">
         <div className="navbar-container">
-            
+            <link to="/" className="navbar-logo">
+                
+            </link>
         </div>
             </nav>
     </>

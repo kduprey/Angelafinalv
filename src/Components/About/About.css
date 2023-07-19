@@ -1,0 +1,11 @@
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
+.profile-image{
+    width: 30%;
+/* height: 795px; */
+
+flex-shrink: 0;
+background: url(./Headshot.svg), lightgray 50% / cover no-repeat;
+}
