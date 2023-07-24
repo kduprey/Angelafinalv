@@ -30,7 +30,7 @@ Angela played NCAA Division I soccer at Drake University, where she earned a BS 
 
                 </p>
             </div>
-                <img scr={headshot} alt="Headshot" className="profile-image" />
+                <img scr={headshot} alt="Headshot" className="profile-image"/>
         </div>
     )
 }
