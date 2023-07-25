@@ -1,14 +1,23 @@
-.about-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 100%;
 }
-.profile-image{
-    width: 40%;
-    height: 600px;
-/* height: 795px; */
-justify-content: space-between;
-flex-shrink: 0;
-background: url(./Headshot.svg), lightgray 50% / cover no-repeat;
-padding-left: 20px;
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.profile-image {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 3px;
 }
