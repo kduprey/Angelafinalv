@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import Lottie from "lottie-react";
 import animationData from "../Angela.json";
 
