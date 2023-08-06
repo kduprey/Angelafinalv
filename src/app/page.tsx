@@ -1,14 +1,18 @@
 import Angela from "../Components/Angela";
 import Breath from "../Components/Breath";
 import About from "../Components/About/About";
+import Navbar from "../Components/Navbar";
+import Collaborate from "../Components/Collaborate/Collaborate";
+import "../styles/globals.css";
 
 export default function Page() {
   return (
     <div className="App">
-      <h1> Home </h1>
+      <Navbar />
       <Angela />
       <Breath />
       <About />
+      <Collaborate />
     </div>
   );
 }

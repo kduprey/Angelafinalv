@@ -1,9 +1,10 @@
 "use client";
 import Lottie from "lottie-react";
-import animationData from "../Breath.json";
+import animationData from "../Breathv2.json";
+import "./Breath.css";
 
 const Breath = () => (
-  <div>
+  <div className="Breath">
     <Lottie animationData={animationData} />
   </div>
 );

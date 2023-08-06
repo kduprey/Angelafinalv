@@ -4,7 +4,9 @@ import "./About.css";
 const About = () => (
   <div className="about-container">
     <div className="bio">
-      <h2> About Me </h2>
+      <div className="grid-even-coloms">
+        <h2> About Me _</h2>
+      </div>
       <p>
         Prior to founding her own practice, Angela was the VP, Brand at YogaGlo,
         a digital wellness company that offers yoga and meditation classes.
