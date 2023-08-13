@@ -5,7 +5,7 @@ const About = () => (
   <div className="about-container">
     <div className="bio">
       <div className="grid-even-coloms">
-        <h2> About Me _</h2>
+        <h1> About_</h1>
       </div>
       <p>
         Prior to founding her own practice, Angela was the VP, Brand at YogaGlo,

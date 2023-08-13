@@ -4,18 +4,24 @@
   display: flex;
   width: 100%;
   height: auto;
-  padding: 30px 40px;
+  padding: 30px 60px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
   text-align: justify;
+  margin: 80px auto 160px auto; /*top right down left*/
   /* Adjust the space between images using margin or padding */
+}
+
+.collaborate-container h1 {
+  margin-bottom: 80px;
 }
 
 .text-container {
   direction: ltr;
   text-align: justify;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .space {
@@ -30,14 +36,30 @@
 }
 .box {
   flex-grow: 1;
+  background-color: black;
+  padding: 104px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .box img {
-  width: 100%;
-  height: auto;
+  width: 32px;
+  height: 32px;
+}
+.box h2 {
+  color: white;
+  margin: 0px;
+  text-align: left;
+  font-size: 24px;
+}
+.box p {
+  color: white;
+  text-align: left;
+  margin: 0px;
 }
 
 .box-33 {
-  width: 32%;
+  width: 40%;
 }
 /* You
    can add additional styles for the images if needed */
