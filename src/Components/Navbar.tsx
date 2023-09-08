@@ -12,16 +12,9 @@ function Navbar() {
         <img src="AM.png" alt="Logo" width={"41.792"} height={"40"} />
       </div>
       <div className="absolute top-0 right-0 h-1">
-        <a
-          href="#"
-          className="contact"
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.href = "mailto:hello@angelatmcleod.com";
-          }}
-        >
+        <Link href="mailto:hello@angelatmcleod.com" className="contact">
           Contact
-        </a>
+        </Link>
       </div>
     </nav>
   );

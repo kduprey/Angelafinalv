@@ -22,6 +22,7 @@
   direction: ltr;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
+  color: #29282b;
 }
 
 .space {
@@ -32,12 +33,18 @@
   display: flex;
   flex-direction: row;
   gap: 32px;
-  width: 80%;
+  width: 90%;
 }
 .box {
-  flex-grow: 1;
-  background-color: black;
-  padding: 104px 40px;
+  width: 33%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #29282b;
+  padding: 0px 40px;
+}
+.box > div {
   display: flex;
   flex-direction: column;
   gap: 24px;

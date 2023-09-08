@@ -1,23 +1,28 @@
 import React from "react";
 import "./About.css";
+import line from "../Dash.png";
+import Image from "next/Image";
+import Headshot from "./V2Headshot.png";
 
 const About = () => (
   <div className="about-container">
     <div className="bio">
       <div className="grid-even-coloms">
-        <h1> About_</h1>
+        <h1>
+          About <Image src={line}></Image>
+        </h1>
       </div>
       <p>
         Prior to founding her own practice, Angela was the VP, Brand at YogaGlo,
         a digital wellness company that offers yoga and meditation classes.
-        While there, she led a cross-functional team tasked with driving growth
-        through brand, user, and product efforts at a critical time in the
-        company lifecycle.
+        While there, she led a cross-functional team tasked with driving growth  
+        through brand,user,and product efforts at a critical time in the company
+        lifecycle.
       </p>
       <p>
         Before joining YogaGlo, Angela was the Head of Strategy at Anomaly, a
         global agency that was awarded 2017 Agency of the Year. During her
-        tenure, she led marketing efforts on YouTube, Hyperloop Transportation
+        tenure,she led marketing efforts on YouTube, Hyperloop Transportation
         Technologies, and PlayStation.
       </p>
       <p>
@@ -47,7 +52,7 @@ const About = () => (
         base camp of Mt. Everest.
       </p>
     </div>
-    <img src="/Headshot.png" alt="Headshot" className="profile-image" />
+    <Image src={Headshot} alt="Headshot" className="profile-image" />
   </div>
 );
 

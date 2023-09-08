@@ -4,6 +4,7 @@ import About from "../Components/About/About";
 import Navbar from "../Components/Navbar";
 import Collaborate from "../Components/Collaborate/Collaborate";
 import "../styles/globals.css";
+import Connect from "../Components/Collaborate/Connect"
 
 export default function Page() {
   return (
@@ -13,6 +14,7 @@ export default function Page() {
       <Breath />
       <About />
       <Collaborate />
+      <Connect />
     </div>
   );
 }

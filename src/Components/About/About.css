@@ -4,12 +4,13 @@
   align-items: center;
   padding: 0 20px;
   margin: 160px auto 80px auto; /* top right down left*/
-  max-width: 1200px;
+  max-width: 1297px;
   height: 100%;
   background-color: #ede9e6;
 }
 .about-container h1 {
   margin-bottom: 80px;
+  width: 280px;
 }
 
 @media (max-width: 900px) {
@@ -29,18 +30,19 @@
   flex-direction: column;
   justify-content: right;
   align-items: right;
-  width: 500px;
+  width: 600px;
   direction: ltr;
   text-align: justify;
-  font-size: 15px;
+  text-justify: distribute;
+  text-align-last: left;
+  font-size: 18px;
 }
 
 .profile-image {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 550px;
   height: 687px;
   flex-shrink: 0;
-  border-radius: 3px;
+  margin-bottom: 200px;
 }
 
 @media (max-width: 900px) {
