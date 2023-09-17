@@ -1,7 +1,11 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig",
 	"compilerOptions": {
-		"plugins": [{ "name": "next" }],
+		"plugins": [
+			{
+				"name": "next"
+			}
+		],
 		"composite": false,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
@@ -28,5 +32,6 @@
 			"@/*": ["*"]
 		}
 	},
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules"],
+	"include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"]
 }
