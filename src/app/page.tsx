@@ -9,13 +9,15 @@ import {
 
 export default function Page() {
 	return (
-		<div className="App">
+		<div className="space-y-8">
 			<Navbar />
 			<Angela />
 			<Breath />
-			<About />
-			<Collaborate />
-			<Connect />
+			<div className=" p-4 md:p-8">
+				<About />
+				<Collaborate />
+				<Connect />
+			</div>
 		</div>
 	);
 }
