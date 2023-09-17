@@ -1,7 +1,7 @@
 import Image from "next/image";
+import line from "../../../public/Dash.png";
+import Headshot from "../../../public/V2Headshot.png";
 import "./About.css";
-import line from "/Dash.png";
-import Headshot from "/V2Headshot.png";
 
 export const About = () => (
 	<div className="about-container">

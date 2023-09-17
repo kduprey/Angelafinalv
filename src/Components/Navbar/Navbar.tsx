@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import AM from "../../../public/AM.png";
 import "./Navbar.css";
-import AM from "/AM.png";
 
 export const Navbar = () => {
 	const handleClick = () => {
