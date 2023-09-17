@@ -1,0 +1,5 @@
+{
+	"baseurl": "./src",
+	"delete": true,
+	"directory": ["./src/Components"]
+}
