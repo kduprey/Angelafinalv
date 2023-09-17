@@ -3,22 +3,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import AM from "../../../public/AM.png";
-import "./Navbar.css";
 
 export const Navbar = () => {
-	const handleClick = () => {
-		// console.log("Clicked");
-	};
 	return (
-		<nav className="relative h-32 w-32">
-			<div className="logo">
-				<Image src={AM} alt="Logo" width={"41.792"} height={"40"} />
-			</div>
-			<div className="absolute top-0 right-0 h-1">
-				<Link href="mailto:hello@angelatmcleod.com" className="contact">
-					Contact
-				</Link>
-			</div>
+		<nav className="flex h-32 w-full items-center justify-between p-12 lg:h-[72px]">
+			<Image src={AM} alt="Logo" height={40} width={41.792} />
+			<Link
+				href="mailto:hello@angelatmcleod.com"
+				className="border-[none] text-lg not-italic text-[#29282b] no-underline transition ease-in-out hover:text-[lightgray]"
+			>
+				Contact
+			</Link>
 		</nav>
 	);
 };
