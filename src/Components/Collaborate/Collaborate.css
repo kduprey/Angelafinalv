@@ -1,6 +1,6 @@
 /* components/ImageGallery.module.css */
 
-/* .collaborate-container {
+.collaborate-container {
   display: flex;
   width: 100%;
   height: auto;
@@ -10,13 +10,11 @@
   align-items: flex-start;
   gap: 8px;
   text-align: justify;
-  margin: 80px auto 160px auto; 
-} */
+  margin: 80px auto 160px auto; /*top right down left*/
+  /* Adjust the space between images using margin or padding */
+}
 
-/*top right down left*/
-/* Adjust the space between images using margin or padding */
-
-/* .collaborate-container h1 {
+.collaborate-container h1 {
   margin-bottom: 80px;
 }
 
@@ -25,52 +23,50 @@
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   color: #29282b;
-} */
+}
 
-/* .space {
-	width: 40px; 
-   */
-/* Adjust the space width between images */
-/* } */
+.space {
+  width: 40px; /* Adjust the space width between images */
+}
 
 .row {
-	display: flex;
-	flex-direction: row;
-	gap: 32px;
-	width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  width: 90%;
 }
 .box {
-	width: 33%;
-	height: 420px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #29282b;
-	padding: 0px 40px;
+  width: 33%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #29282b;
+  padding: 0px 40px;
 }
 .box > div {
-	display: flex;
-	flex-direction: column;
-	gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .box img {
-	width: 32px;
-	height: 32px;
+  width: 32px;
+  height: 32px;
 }
 .box h2 {
-	color: white;
-	margin: 0px;
-	text-align: left;
-	font-size: 24px;
+  color: white;
+  margin: 0px;
+  text-align: left;
+  font-size: 24px;
 }
 .box p {
-	color: white;
-	text-align: left;
-	margin: 0px;
+  color: white;
+  text-align: left;
+  margin: 0px;
 }
 
 .box-33 {
-	width: 40%;
+  width: 40%;
 }
 /* You
    can add additional styles for the images if needed */

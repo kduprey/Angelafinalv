@@ -5,7 +5,7 @@ import "./Breath.css";
 import animationData from "./Breathv2.json";
 
 export const Breath = () => (
-	<div className="m-0 bg-zinc-800 p-0">
+	<div className="Breath">
 		<Lottie animationData={animationData} />
 	</div>
 );
