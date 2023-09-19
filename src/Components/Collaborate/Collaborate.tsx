@@ -1,18 +1,22 @@
+import Image from "next/image";
 import businessIcon from "../../../public/Business_Icon.png";
+import line from "../../../public/Dash.png";
 import lightIcon from "../../../public/Lightning_Icon.png";
 import projectIcon from "../../../public/Project_Icon.png";
-import { Header } from "../Header/Header";
 import { Card } from "./Card/Card";
 import "./Collaborate.css";
 
 export const Collaborate = () => {
 	return (
-		<div className="mx-auto flex h-auto w-full flex-col items-start justify-center gap-2 p-4 py-[30px] ">
-			<Header>Let&apos;s collaborate</Header>
-			<div className="flex w-full flex-col items-center justify-between gap-5 lg:flex-row">
+		<div className="collaborate-container">
+			<div className="text-container">
+				<h1>
+					Let&apos;s collaborate <Image src={line} alt="Line" />
+				</h1>
+			</div>
+			<div className="row">
 				<Card
 					icon={lightIcon}
-					altText="Lightning Icon"
 					heading={"Sprint"}
 					body={
 						"Task-orientated relationships focused on a near-term needs. Based on an hourly/day rate."
@@ -21,7 +25,6 @@ export const Collaborate = () => {
 				/>
 				<Card
 					icon={projectIcon}
-					altText="Project Icon"
 					heading={"Project"}
 					body={
 						"Objective-oriented relationships focused on more complex challenges. Based on a project fee."
@@ -30,7 +33,6 @@ export const Collaborate = () => {
 				/>
 				<Card
 					icon={businessIcon}
-					altText="Business Icon"
 					heading={"Dedicated Business Leader"}
 					body={
 						"Fully-invested business leader focused on the intersection of user x brand x product."
