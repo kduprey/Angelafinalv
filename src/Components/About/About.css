@@ -56,7 +56,7 @@
 .grid-even-coloms {
   display: grid;
   grid-template-columns: 50% 50%;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 @media (max-width: 1250px) {

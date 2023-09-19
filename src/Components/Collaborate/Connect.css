@@ -1,5 +1,6 @@
 .header-container h1 {
-  padding: 70px;
+  margin-bottom: 80px;
+  padding: 0px 70px;
 }
 
 .info-container {
@@ -8,5 +9,14 @@
   justify-content: left;
   align-items: left;
   padding: 0px 70px;
-  margin-bottom: 212px;
+  margin-bottom: -212px;
 }
+@media (max-width: 900px) {
+    .info-container {
+      width: 300px;
+      height: auto;
+      margin: 30px;
+    }
+  }
+
+
