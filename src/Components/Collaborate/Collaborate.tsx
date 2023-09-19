@@ -4,7 +4,7 @@ import projectIcon from "./Project_Icon.png";
 import businessIcon from "./Business_Icon.png";
 import "./Collaborate.css";
 import line from "../Dash.png";
-import Image from "next/Image";
+import Image from "next/image";
 
 import Card from "./Card";
 
@@ -14,7 +14,7 @@ const Collaborate = () => {
       <div className="text-container">
         <h1>
           {" "}
-          Let&apos;s collaborate <Image src={line} />
+          Let&apos;s collaborate <Image src={line} alt="dash" />
         </h1>
       </div>
       <div className="row">
