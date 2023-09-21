@@ -3,12 +3,13 @@ import './Connect.css';
 import line from '../Dash.png';
 import Image from 'next/image';
 
+
 function Connect() {
   return (
     <div className="connect-container">
       <div className="header-container">
         <h1>
-          Get in touch <Image src={line} alt="line"></Image>
+          Get in touch <Image src={line} alt="dash"></Image>
         </h1>
       </div>
       <div className="info-container">
