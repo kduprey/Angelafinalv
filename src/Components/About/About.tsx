@@ -1,17 +1,12 @@
-import React from "react";
-import "./About.css";
-import line from "../Dash.png";
 import Image from "next/image";
 import Headshot from "../V2Headshot.png";
+import { Header } from "../Header/Header";
 
-const About = () => (
-  <div className="about-container">
-    <div className="bio">
-      <div className="grid-even-coloms">
-        <h1>
-          About <Image src={line} alt="Headshot"></Image>
-        </h1>
-      </div>
+export const About = () => (
+  <div className="mx-auto flex h-full flex-col items-start justify-between gap-16 bgg-[#ede9e6] px-5 pb-40 pt-20 lg:flex-row lg:items-center">
+    <div className="flex flex-col text-lg">
+        <Header>About</Header>
+      <div className=" space-y-6">
       <p>
         Prior to founding her own practice, Angela was the VP, Brand at YogaGlo,
         a digital wellness company that offers yoga and meditation classes.
@@ -51,9 +46,14 @@ const About = () => (
         and mother of two who enjoys doing crazy things like climbing to the
         base camp of Mt. Everest.
       </p>
+      </div>
     </div>
-    <Image src={Headshot} alt="Headshot" className="profile-image" />
+    <Image 
+    src={Headshot} 
+    alt="Headshot" 
+    className="shrink-0 lg:m-0 lg:h-[687px] lg:w-[550px] lg:self-end"
+   />
   </div>
 );
 
-export default About;
+

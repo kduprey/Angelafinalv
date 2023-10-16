@@ -1,49 +1,47 @@
-import React from "react";
-import lightIcon from "./Lightning_Icon.png";
-import projectIcon from "./Project_Icon.png";
-import businessIcon from "./Business_Icon.png";
-import "./Collaborate.css";
-import line from "../Dash.png";
-import Image from "next/image";
-import Card from "./Card";
+import React from 'react';
+import lightIcon from './Lightning_Icon.png';
+import projectIcon from './Project_Icon.png';
+import businessIcon from './Business_Icon.png';
+import './Collaborate.css';
+import line from '../Dash.png';
+import Image from 'next/image';
+import { Card } from './Card/Card';
 
-const Collaborate = () => {
+export const Collaborate = () => {
   return (
     <div className="collaborate-container">
       <div className="text-container">
         <h1>
-          {" "}
-          Let&apos;s collaborate <Image src={line} alt="dash"/>
+          {' '}
+          Let&apos;s collaborate <Image src={line} alt="dash" />
         </h1>
       </div>
       <div className="row">
         <Card
           icon={lightIcon}
-          heading={"Sprint"}
+          heading={'Sprint'}
           body={
-            "Task-oriented relationships focused on a near-term needs. Based on an hourly/day rate."
+            'Task-oriented relationships focused on a near-term needs. Based on an hourly/day rate.'
           }
-          timing={"Typically 2-6 weeks"}
+          timing={'Typically 2-6 weeks'}
         />
         <Card
           icon={projectIcon}
-          heading={"Project"}
+          heading={'Project'}
           body={
-            "Objective-oriented relationships focused on more complex challenges. Based on a project fee."
+            'Objective-oriented relationships focused on more complex challenges. Based on a project fee.'
           }
-          timing={"Typically 3-4 months"}
+          timing={'Typically 3-4 months'}
         />
         <Card
           icon={businessIcon}
-          heading={"Dedicated Business Leader"}
+          heading={'Dedicated Business Leader'}
           body={
-            "Fully-invested business leader focused on the intersection of user x brand x product."
+            'Fully-invested business leader focused on the intersection of user x brand x product.'
           }
-          timing={"Determined by the scope of the work "}
+          timing={'Determined by the scope of the work '}
         />
       </div>
     </div>
   );
 };
-
-export default Collaborate;

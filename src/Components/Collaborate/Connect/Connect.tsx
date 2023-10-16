@@ -3,8 +3,7 @@ import './Connect.css';
 import line from '../Dash.png';
 import Image from 'next/image';
 
-
-function Connect() {
+export const Connect = () => {
   return (
     <div className="connect-container">
       <div className="header-container">
@@ -18,8 +17,4 @@ function Connect() {
       </div>
     </div>
   );
- 
-}
-
-export default Connect;
-
+};
