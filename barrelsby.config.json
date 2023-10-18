@@ -3,6 +3,5 @@
   "delete": true,
   "exclude": ["\\.css"],
   "include": ["./src/components"],
-  "noHeader": true,
   "location": "below"
 }
