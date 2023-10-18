@@ -1,3 +1,6 @@
+import React from "react";
+import "./About.css";
+import line from "../Dash.png";
 import Image from "next/image";
 import line from "../../../public/Dash.png";
 import Headshot from "../../../public/V2Headshot.png";
@@ -55,3 +58,5 @@ export const About = () => (
 		<Image src={Headshot} alt="Headshot" className="profile-image" />
 	</div>
 );
+
+export default About;

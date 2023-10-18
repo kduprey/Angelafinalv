@@ -1,10 +1,9 @@
-import Image from "next/image";
 import businessIcon from "../../../public/Business_Icon.png";
-import line from "../../../public/Dash.png";
 import lightIcon from "../../../public/Lightning_Icon.png";
 import projectIcon from "../../../public/Project_Icon.png";
-import { Card } from "./Card/Card";
-import "./Collaborate.css";
+import line from "../Dash.png";
+import Image from "next/image";
+import Card from "./Card";
 
 export const Collaborate = () => {
 	return (
@@ -43,3 +42,5 @@ export const Collaborate = () => {
 		</div>
 	);
 };
+
+export default Collaborate;
