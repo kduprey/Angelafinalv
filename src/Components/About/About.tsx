@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Headshot from "../V2Headshot.png";
+import  Headshot  from "../V2Headshot.png";
 import { Header } from "@/components";
 
 export const About = () => (
@@ -49,7 +49,7 @@ export const About = () => (
       </div>
     </div>
     <Image 
-    src={Headshot} 
+    src={"Headshot"} 
     alt="Headshot" 
     className="shrink-0 lg:m-0 lg:h-[687px] lg:w-[550px] lg:self-end"
    />
