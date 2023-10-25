@@ -1,6 +1,7 @@
 import { fontFamily } from 'tailwindcss/defaultTheme';
 import type { Config } from 'tailwindcss';
 
+
 const mainConfig: Config = {
   content: ['./src/**/*.{ts,js,jsx,tsx,mdx}'],
   theme: {

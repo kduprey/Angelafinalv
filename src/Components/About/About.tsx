@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Headshot from '../../../public/V2Headshot.png';
 import { Header } from '../Header/Header';
 
+
 export const About = () => (
   <div className="mx-auto flex h-full flex-col items-start justify-between gap-16 bgg-[#ede9e6] px-5 pb-40 pt-20 lg:flex-row lg:items-center">
     <div className="flex flex-col text-lg">

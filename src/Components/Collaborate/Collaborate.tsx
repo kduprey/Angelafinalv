@@ -18,7 +18,7 @@ export const Collaborate = () => {
       </div>
       <div className="row">
         <Card
-          icon={lightIcon}
+          icon={ lightIcon }
           heading={'Sprint'}
           body={
             'Task-oriented relationships focused on a near-term needs. Based on an hourly/day rate.'

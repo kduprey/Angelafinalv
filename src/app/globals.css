@@ -6,6 +6,7 @@
   text-align: center;
 }/*
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -31,6 +32,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @tailwind base;
 @tailwind components;
@@ -59,6 +61,7 @@ body {
 } 
 */
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -84,6 +87,7 @@ code {
 
 @layer components {
 }
+
 
 /*
 h1 {
@@ -134,3 +138,4 @@ p {
   line-height: 120%; /* 19.2px */
 /*
 } */
+
